@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 # ruby '2.0.0'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.9'
+gem 'rails', '4.1.8'
 
 group :development, :test do
   gem 'sqlite3'
@@ -51,11 +50,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-group :test, :development do
-  gem "minitest"
-  gem "rspec-rails", "2.13.1"
-end
+#group :test, :development do
+#  gem "minitest"
+#  gem "rspec-rails", "2.13.1"
+#end
 
-group :test do
-  gem "capybara", "2.1.0"
-end
+#group :test do
+#  gem "capybara", "2.1.0"
+#end
+gem 'tzinfo-data'
